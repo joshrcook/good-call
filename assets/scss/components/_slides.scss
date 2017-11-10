@@ -1,0 +1,109 @@
+.slides {
+
+	&___img--hero1 {
+		width: 614px;
+		height: 194px;
+		margin: 0 auto;
+	}
+
+	&___img--hero2 {
+		width: 500px;
+		height: 297px;
+		margin: 0 auto;
+	}
+
+	&___img--hero3 {
+		width: 755px;
+    	height: 220px;
+		margin: 0 auto;
+	}
+
+	&___img--hero4 {
+		width: 408px;
+    	height: 286px;
+    	margin: 0 auto;
+	}
+
+	&___img--hero5 {
+		height: 229px;
+    	width: 359px;
+    	margin: 0 auto;
+	}
+
+	&__img {
+		margin-bottom: 25px;
+	}
+
+	&__goodcall {
+		color: $color-headingblack;
+		font-size: 50px;
+		margin-bottom: 25px;
+		font-weight: bold;
+	}
+
+	&__subheading {
+		font-size: 30px;
+		color: #9B9B9B;
+		line-height: 26px;
+		margin-bottom: 30px;
+	}
+
+	&__button {
+		padding-right: 55px;
+   		padding-left: 55px;
+   		font-weight: 200;
+	}
+
+	&__button--upper {
+		text-transform: uppercase;
+		padding-right: 55px;
+    	padding-left: 55px;	
+    	font-weight: 200;
+	}
+
+	&__hero1--wrap {
+		padding-top: 100px;
+	}
+
+	&__hero2--wrap {
+		padding-top: 60px;
+	}
+
+	&__hero3--wrap {
+		padding-top: 45px;
+	}
+
+	&__hero4--wrap {
+		padding-top: 10px;
+	}
+
+	&__hero5--wrap {
+		padding-top: 25px;
+	}
+
+	}
+
+	.slick-track {
+		    height: 750px;
+	}
+
+	.slick-dots {
+		    padding-bottom: 50px;
+
+		    li {
+		    	margin: 0px;
+		    	padding: 0px;
+		    }
+	}
+
+
+	.slick-dots li button:before {
+		font-size: 10px;
+		color: $color-paragraphblack;
+
+	}
+
+	.slick-dots li.slick-active button:before {
+		color: #059ac0;
+		opacity: 1;
+	}

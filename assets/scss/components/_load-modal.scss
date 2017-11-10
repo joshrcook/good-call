@@ -1,0 +1,50 @@
+.load-modal {
+
+	&__wrap {
+		border-radius: 25px;
+	    width: 426px;
+	    height: 465px;
+	    padding: 45px 80px;
+	}
+	&__button--wrap {
+		margin: 0 auto;
+    	text-align: center;
+    	 margin-bottom: 20px;
+	}
+	&__button {
+		padding-right: 60px;
+	    padding-left: 60px;
+	    font-size: 20px;
+	    font-weight: 200;
+	    margin-top: 20px;
+
+	}
+	&__link {
+		color: #059AC0;
+		font-size: 13px;
+		text-decoration: underline;
+	}
+	&__account {
+		color: #9B9B9B;
+		font-size: 13px;
+		text-align: center;
+	}
+	&__title {
+		font-size: 30px;
+		color: #555555;
+		margin-bottom: 50px;
+	}
+	&__label {
+		text-transform: uppercase;
+		color: #9B9B9B;
+		font-size: 11px;
+		margin-bottom: 10px;
+	}
+
+}
+
+.load-modal label input[type="text"] {
+	    border-radius: 10px;
+    	height: 40px;
+    	margin-bottom: 18px;
+}

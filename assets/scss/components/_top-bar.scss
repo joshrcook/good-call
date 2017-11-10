@@ -1,0 +1,24 @@
+.top-bar {
+
+	height: 26px;
+	padding-top: 40px;
+
+	&__logo {
+		width: 140px;
+	}
+
+	&__text {
+		display: inline-block;
+		text-align: right;
+		font-size: 20px;
+		line-height: 24px;
+		margin: 0;
+		text-transform: uppercase;
+		color: #059AC0;
+	}
+
+	&__menu {
+		float: right;
+		display: inline-block;
+	}
+}

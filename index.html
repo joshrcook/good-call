@@ -3,9 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Muli</title>
+        <title>GoodCall</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- slider start -->
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+        <!-- slider end -->
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
@@ -14,11 +22,206 @@
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
     <body>
-        
-        
 
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <section class="section top-bar">
+            <div class="row">
+                <div class="columns large-2">
+                    <img class="top-bar__logo" src="assets/img/logo.png" alt="Good Call logo">
+                </div>
+                <div class="columns large-2 large-offset-8">
+                    <a href="#" data-reveal-id="login-modal"><p class="top-bar__text">Login</p></a>
+
+                    <img class="top-bar__menu" src="assets/img/menu.svg" alt="Menu button" class="topbar__burger">
+                </div>
+            </div>
+        </section>
+
+        <section class="section  slider">
+            <div class="row  large-6 large-offset-3">
+                <div class="columns">
+                    <div class="slider2">
+                        <div class="slideshow  text-center">
+                            <img class="slideshow__img  text-center" src="assets/img/1.png" alt="Company building">
+                            <p class="slideshow__text">Paying for college <span class="slideshow__break">without a mountain of debt?</span><span class="slideshow__break2">Good Call.</span></p>
+                            <p class="slideshow__text2">How much could I earn for college?</p>
+                            <a href="#" class="button">Find Scholarships</a>
+                        </div>
+                        <div class="slideshow  text-center">
+                            <img class="slideshow__img2  text-center" src="assets/img/2.png" alt="Interview">
+                            <p class="slideshow__text">Acing your next job interview?<span class="slideshow__break2">Good Call.</span></p>
+                            <p class="slideshow__text2">What questions should I ask my interviewer?</p>
+                            <a href="#" class="button secondary">Get career tips</a>
+                        </div>
+                        <div class="slideshow  text-center">
+                            <img class="slideshow__img3  text-center" src="assets/img/3.png" alt="Computers">
+                            <p class="slideshow__text">Paying less than <span class="slideshow__break">your neighbors for internet?</span><span class="slideshow__break2">Good Call.</span></p>
+                            <p class="slideshow__text2">What questions should I ask my interviewer?</p>
+                            <a href="#" class="button secondary">Get connected</a>
+                        </div>
+                        <div class="slideshow  text-center">
+                            <img class="slideshow__img3  text-center" src="assets/img/4.png" alt="Scale of bad, good and amazing">
+                            <p class="slideshow__text">Keeping an eye<span class="slideshow__break">on your credit score?</span><span class="slideshow__break2">Good Call.</span></p>
+                            <p class="slideshow__text2">How do I build better credit?</p>
+                            <a href="#" class="button secondary">Get personal finance advice</a>
+                        </div>
+                        <div class="slideshow  text-center">
+                            <img class="slideshow__img3  text-center" src="assets/img/5.png" alt="Scale of bad, good and amazing">
+                            <p class="slideshow__text">Moving to your dream destination?<span class="slideshow__break2">Good Call.</span></p>
+                            <p class="slideshow__text2">How do I get started?</p>
+                            <a href="#" class="button secondary">Get moving advice</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section works  text-center">
+            <div class="row">
+                <div class="columns">
+                    <h1 class="works__heading">How GoodCall Works</h1>
+                    <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <a href="#" class="button">See It In Action</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about">
+            <div class="row">
+                <div class="columns large-6">
+                    <p class="about__heading">For students &amp parents</p>
+                    <p class="about__subheading">Lorem ipsum dolor sit amet, consectetur adiplisicing.</p>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aliquip ex ea consequat.</p>
+                    <p class="about__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+                <div class="columns large-6">
+                    <img class="about__img1" src="assets/img/group1.png" alt="Girl and boy">
+                </div>
+            </div>
+            <div class="row">
+                <div class="columns large-6">
+                    <img class="about__img2" src="assets/img/group-b.png" alt="Girl and boy">
+                </div>
+                <div class="columns large-6">
+                    <p class="about__heading">For educators</p>
+                    <p class="about__subheading">Lorem ipsum dolor sit amet, consectetur adiplisicing.</p>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aliquip ex ea consequat.</p>
+                    <p class="about__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section callout">
+            <div class="row">
+                <div class="columns large-4">
+                    <img src="assets/img/data.svg" alt="data">
+                    <p class="callout__heading">Humanizing Data</p>
+                    <p class="callout__text">At GoodCall, we’re all about data. But we think data is more helpful when you put it in the context of a conversation. We bring information and relationships together for a better consumer experience.</p>
+                </div>
+                <div class="columns large-4">
+                    <img src="assets/img/check.svg" alt="Check mark">
+                    <p class="callout__heading">Simplifying Processes</p>
+                    <p class="callout__text">Researching products and services and interacting with brands can be hard. We provide simple user interfaces and consumer-friendly tools to make these complex processes easier.</p>
+                </div>
+                <div class="columns large-4">
+                    <img src="assets/img/cap.svg" alt="Cap and Diploma">
+                    <p class="callout__heading">Improving Lives</p>
+                    <p class="callout__text">We believe access to the right data, tools and conversations can improve people’s lives in a meaningful way. And we’re applying our knowledge in those areas to improve lives through education, too.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section decision">
+            <div class="row">
+                <div class="columns">
+                    <h2 class="decision__heading">Life decision that feels right</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="columns  decision__box">
+                    <h3 class="decision__h3">Career</h3>
+                    <p class="decision__text">Find a job, ace the interview, negotiate salary &amp more with GoodCall.</p>
+                </div>
+                <div class="columns  decision__box2">
+                    <h3 class="decision__h3">Moving</h3>
+                    <p class="decision__text">Whether it’s to an apartment or a house, city or country, we’ve got your back.</p>
+                </div>
+                <div class="columns  decision__box3">
+                    <h3 class="decision__h3">Education</h3>
+                    <p class="decision__text">Data and resources on scholarships, student loans and more.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="row">
+                <div class="columns">
+                    <p class="footer__small-text">Ut trifecta sugar est saucer, caramelization java, robusta, beans redeye breve, mug robust affogato milk galão irish robusta froth aromatic. Frappuccino, half and half eu white a, aftertaste, ristretto frappuccino, roast foam variety lungo siphon. Mug cream cup milk as percolator, milk caffeine, robust, organic, roast white sweet, affogato acerbic black breve caffeine cup doppio shop macchiato java. Steamed cortado, aged robusta, pumpkin spice trifecta, blue mountain espresso beans cup mazagran id seasonal aroma ut americano con panna. Dripper so pumpkin spice siphon crema half and half extra, robust caramelization cortado redeye, saucer white variety espresso redeye crema. Aftertaste, percolator, aftertaste, crema strong carajillo robust organic mocha cortado breve, robusta rich mug irish steamed.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="columns large-5">
+                    <p class="footer__heading">Our Goal</p>
+                    <p class="footer__text">At GoodCall, we believe that the best decisions are backed by data. Moreover, we believe that data should be free, transparent and easy to understand. We aim to help students and their families make the best decisions at critical moments – for college, careers and beyond.</p>
+                </div>
+                <div class="columns large-2">
+                    <p class="footer__heading">GoodCall</p>
+                    <ul>
+                        <li><a href="#">About GoodCall</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="columns large-1">
+                    <p class="footer__heading">Social</p>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">Google+</a></li>
+                    </ul>
+                </div>
+                <div class="columns large-2">
+                    <p class="footer__heading">Legal</p>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="columns large-2">
+                    <p class="footer__heading">Location</p>
+                    <ul>
+                        <li><a href="#">GoodCall, LLC</a></li>
+                        <li><a href="#">1101 Red Ventures Dr Fort Mill, SC 29707</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <div id="login-modal" class="reveal-modal  modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+          <h2 class="modal__title" ">Log-In</h2>
+          <p class="modal__error">Please enter a valid email address.</p>
+          <label class="modal__label"><span class="email">Email</span></label>
+          <input type="email" class="modal__email" placeholder="Email or Username">
+          <label class="modal__label">Password</label>
+          <input type="password" class="modal__password" placeholder="Password">
+          <a href="#" class="button">Log In</a>
+          <p class="modal__account">Don't have an account? <span class="sign-up">Sign-Up Now</span></p>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="node_modules/zurb-foundation-5/js/foundation/foundation.js"></script>
         <script src="assets/js/project.js"></script>
+    
+        <!-- slick -->
+        <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+        <script type="text/javascript" src="assets/slick/slick.js"></script>
+        <!-- slick end -->
+
+        <script src="node_modules/zurb-foundation-5/js/foundation/foundation.js"></script>
+        <script src="node_modules/zurb-foundation-5/js/foundation/foundation.reveal.js"></script>
     </body>
 </html>

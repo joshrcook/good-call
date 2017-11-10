@@ -1,0 +1,81 @@
+.modal {
+	
+	height: 465px;
+	width: 426px;
+	border-radius: 25px;
+	
+	&__label {
+		display: block;
+	    text-align: center;
+	    font-size: 11px;
+	    line-height: 13px;
+	    text-transform: uppercase;
+	    color: rgb(155, 155, 155);
+	    margin-bottom: 10px;
+	}
+
+	&__error {
+		display: block;
+	    text-align: center;
+	    font-size: 11px;
+	    line-height: 13px;
+	    text-transform: uppercase;
+	    color: #D0021B;
+	    margin-bottom: 28px;
+	}
+
+	.email {
+		color: #D0021B;
+	}
+
+	.sign-up {
+		color: #059AC0;
+		text-decoration: underline;
+	}
+
+	&__title {
+		text-align: center;
+	    font-size: 30px;
+	    line-height: 36px;
+	    color: rgb(85, 85, 85);
+	    margin-bottom: 21px;
+	}
+
+	input {
+		margin-bottom: 18px;
+	}
+
+	&__email {
+		display: block;
+	    margin: 0 auto;
+	    border-radius: 10px;
+	    border: 1px solid #D0021B;
+	    height: 40px;
+	    padding: 10px;
+	    width: 250px;
+	    box-shadow: 0 0 10px rgba(208, 2, 27, .15);
+		}
+
+	&__password {
+		display: block;
+	    margin: 0 auto;
+	    border-radius: 10px;
+	    border: 1px solid rgb(128, 128, 128);
+	    height: 40px;
+	    padding: 10px;
+	    width: 250px;
+	}
+
+	.button {
+		display: block;
+		width: 180px;
+		margin: 31px auto;
+	}
+
+	&__account {
+		text-align: center;
+		font-size: 13px;
+		line-height: 16px;
+	    color: rgb(155, 155, 155);
+	}
+}

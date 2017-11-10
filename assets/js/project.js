@@ -1,7 +1,16 @@
-jQuery( function( $ ) {
-	// $( 'p' ).css( 'background-color', 'blue' );
-});
+$(document).ready(function(){
 
-jQuery( document ).ready( function( $ ) {
-	
-});
+  $(document).foundation();
+
+  $('#login-modal').foundation('reveal', 'open');
+
+	$(".slider2").slick({
+		slidesToShow: 1,
+	  	slidesToScroll: 1,
+	  	autoplay: true,
+	  	autoplaySpeed: 4000,
+		arrows: false,
+		dots: true,
+	});
+
+})

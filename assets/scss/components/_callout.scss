@@ -1,0 +1,29 @@
+.callout {
+	background-image: url( ../img/bg3.jpg );
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 583px;
+	border: 2px solid #EDF1F2;
+	padding-top: 100px;
+	margin-bottom: 121px;
+
+	&__heading {
+		font-size: 30px;
+		line-height: 36px;
+		color: #555;
+	}
+
+	&__text {
+		color: #9B9B9B;
+		font-size: 20px;
+		line-height: 26px;
+		padding-right: 28px;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 51px;
+	}
+}

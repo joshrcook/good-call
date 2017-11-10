@@ -1,0 +1,21 @@
+.callout-box {
+
+	&__image {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 51px;
+	}
+
+	&__title {
+		font-size: 30px;
+		line-height: 37px;
+		color: $color-primary;
+		margin-bottom: 17px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 26px;
+		color: $color-secondary;
+	}
+}

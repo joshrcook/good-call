@@ -1,0 +1,76 @@
+.section {
+
+}
+
+.section--hero {
+	padding-top: 66px;
+	padding-bottom: 80px;
+}
+
+.section--intro {
+	padding: 100px 0;
+	background: url('../img/intro-bg.svg');
+	background-position: center;
+	background-size: cover;
+
+	.section {
+
+		&__title {
+			font-size: 50px;
+			line-height: 61px;
+			margin-bottom: 26px;
+			font-family: $font-primary;
+			color: $color-primary;
+		}
+
+		&__text {
+			font-size: 20px;
+			line-height: 26px;
+			font-family: $font-primary;
+			color: $color-secondary;
+			margin-bottom: 30px;
+		}
+
+		&__button {
+			padding: 11px 33px;
+		}
+
+	}
+	
+} //section--intro
+
+.section--audience {
+	padding-top: 100px;
+	padding-bottom: 150px;
+
+	.section {
+
+	}
+} //section--audience
+
+.section--callout {
+	padding-top: 100px;
+	padding-bottom: 71px;
+	background: url('../img/intro-bg.svg');
+	background-position: center;
+	background-size: cover;
+} //section--callout
+
+.section--decisions {
+	padding-top: 121px;
+	padding-bottom: 145px;
+
+	.section {
+
+		&__title {
+			font-size: 30px;
+			line-height: 37px;
+			color: $color-primary;
+			margin-bottom: 48px;
+		}
+	}
+} //section--decisions
+
+
+
+

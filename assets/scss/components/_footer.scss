@@ -1,0 +1,42 @@
+.footer {
+	padding-bottom: 87px;
+
+	&__disclaimer {
+		font-size: 12px;
+		line-height: 15px;
+		color: $color-secondary;
+		margin-bottom: 32px;
+	}
+
+	&__heading {
+		font-size: 18px;
+		line-height: 22px;
+		color: $color-three;
+		text-transform: uppercase;
+		margin-bottom: 21px;
+	}
+
+	&__goal {
+		font-size: 18px;
+		line-height: 24px;
+		color: $color-secondary;
+	}
+
+	&__nav {
+
+		margin: 0;
+
+		li {
+			list-style: none;
+		}
+
+		li a {
+			color: $color-secondary;
+		}
+	}
+
+	&__address {
+		color: $color-secondary;
+	}
+
+}

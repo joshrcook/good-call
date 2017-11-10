@@ -1,7 +1,10 @@
 jQuery( function( $ ) {
-	// $( 'p' ).css( 'background-color', 'blue' );
-});
 
-jQuery( document ).ready( function( $ ) {
-	
+	$(document).foundation();
+
+	$('.slider').slick({
+		autoplay: true,
+		arrows: false,
+		dots: true,
+	});
 });

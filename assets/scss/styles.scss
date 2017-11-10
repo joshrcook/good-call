@@ -1,3 +1,9 @@
 @import '../../node_modules/zurb-foundation-5/scss/normalize';
 
 // @import '../../node_modules/zurb-foundation-5/scss/foundation/components/accordion';
+@import '../../node_modules/zurb-foundation-5/scss/foundation/components/type';
+@import '../../node_modules/zurb-foundation-5/scss/foundation/components/grid';
+@import '../../node_modules/zurb-foundation-5/scss/foundation/components/reveal';
+
+@import 'base/all',
+		'components/all';

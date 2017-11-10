@@ -1,0 +1,27 @@
+.card {
+  padding: 45px 22px;
+  border-radius: 10px;
+  border: solid 1px #EDF1F2;
+  transition: 150ms;
+  min-height: 237px;
+
+  &__title {
+    color: $color-text-grey;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    color: $color-text-grey;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  &:hover {
+    border: solid 1px #059AC0;
+    box-shadow: 0 0 20px rgba(5, 154, 192, .2) inset;
+  }
+  
+}

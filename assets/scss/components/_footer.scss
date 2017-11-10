@@ -1,0 +1,37 @@
+.footer {
+
+	margin-bottom: 88px;
+
+
+	&__small-text {
+		font-size: 12px;
+		line-height: 14px;
+		color: #9B9B9B;
+		margin-bottom: 51px;
+	}
+
+	&__heading {
+		text-transform: uppercase;
+		color: #FE5000;
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 24px;
+		color: #9B9B9B;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+	}
+
+	li a {
+		font-size: 18px;
+		line-height: 30px;
+		color: #9B9B9B;
+		text-decoration: none;
+	}
+}

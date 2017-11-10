@@ -1,0 +1,62 @@
+.good-call--modal {
+    
+    border-radius: 25px;
+    filter: drop-shadow(3px 20px 10px #4A4A4A);
+    height: 465px;
+    padding: 45px 88px; 
+    width: 426px;
+
+    h2 {
+        color: $color-Emperor;
+        font-size: 30px;
+    }
+
+    &__instructions {
+        color: $color-Monza;
+        font-size: 15px;
+        line-height: 18px;
+        width: 252px;
+    } 
+    
+    &__email {
+        color: $color-Monza;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+
+    &__password {
+        color: $color-Dusty-Gray;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    
+    &__input-1,
+    &__input-2 {
+        border: solid 1px;
+        border-radius: 10px;
+        line-height: 40px;
+    }
+
+    &__input-1 {
+        border-color: $color-Monza;
+        margin-bottom: 18px;
+    }
+
+    &__input-2 {
+        border-color: $color-Dusty-Gray;
+        margin-bottom: 31px;
+    }
+
+    &__a {
+        margin-bottom: 36px;
+    }
+
+    &__sign-up {
+        color: $color-Dusty-Gray;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+}//good-call__modal

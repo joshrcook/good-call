@@ -1,0 +1,26 @@
+.header {
+
+    background-color: transparent;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    &__good-call {
+        margin-left: 81px;
+    }
+
+    &__login,
+    &__hamburger {
+        float: right;
+    }
+    
+    &__login {
+        color: #059AC0;
+        margin-right: 36px;
+    }
+
+    &__hamburger {
+        margin-right: 40px;
+    }
+
+}//header
+

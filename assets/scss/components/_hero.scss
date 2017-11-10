@@ -1,0 +1,23 @@
+.hero {
+
+	&__image {
+		margin:0 auto; 
+	}
+	&__title {
+		font-size:$heading-font;
+		color:$color-black; 
+		font-family:$primary-font-family;
+		margin-top:26px;   
+	}
+	span {
+		font-size:$heading-font;
+		color:$color-black; 
+		font-family:$primary-font-family;
+		font-weight:700;
+		margin-bottom:25px;  
+	}
+	&__subheading {
+		margin-bottom:40px; 
+	}
+}
+

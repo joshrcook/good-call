@@ -1,0 +1,77 @@
+.slide {
+
+	min-height: 650px;
+
+	img {
+		margin-bottom: 30px;
+	}
+
+	&__img1 {
+        width: 614px;
+        margin: 0 auto;
+    }
+
+    &__img2 {
+        width: 582px;
+        margin: 0 auto;
+    }
+
+    &__img3 {
+        width: 582px;
+        margin: 0 auto;
+    }
+
+    &__img4 {
+        width: 441px;
+        margin: 0 auto;
+    }
+
+    &__img5 {
+        width: 385px;
+        margin: 0 auto;
+    }
+
+	&__title {
+		font-size: 50px;
+		line-height: 61px;
+		font-weight: 300;
+		color: $color-primary;
+	}
+
+	&__emphasis {
+		display: block;
+		font-size: 50px;
+		line-height: 61px;
+		color: $color-primary;
+		font-weight: bold;
+		margin-bottom: 25px;
+	}
+
+	&__text {
+		font-size: 30px;
+		line-height: 26px;
+		color: $color-secondary;
+		margin-bottom: 30px;
+	}
+
+	&__button {
+
+	}
+}
+
+.slider {
+
+	position: relative;
+
+	&:before {
+		content: "";
+		background: url('../img/header-bg.png');
+		background-position: center;
+		background-size: contain;
+		position: absolute;
+		top: 0;
+		left: -100px;
+		width: 1217px;
+		height: 410px;
+	}
+}

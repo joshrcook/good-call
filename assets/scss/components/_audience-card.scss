@@ -1,0 +1,46 @@
+.audience-card {
+	&__target {
+		font-size: 15px;
+		line-height: 19px;
+		text-transform: uppercase;
+		color: $color-three;
+		margin-bottom: 14px;
+	}
+
+	&__title {
+		font-size: 30px;
+		line-height: 37px;
+		color: $color-primary;
+		margin-bottom: 17px;
+	}
+
+	&__text-1 {
+		font-size: 20px;
+		line-height: 26px;
+		color: $color-secondary;
+	}
+
+	&__text-2 {
+		font-size: 20px;
+		line-height: 26px;
+		color: $color-secondary;
+		margin-bottom: 23px;
+	}
+
+	&__image {
+		width: 353px;
+	}
+
+	&__button {
+		padding: 10px 34px;
+		border: 1px solid $button-primary;
+		background: white;
+		color: $color-three;
+		font-size: 18px;
+		line-height: 22px;
+	}
+}
+
+.audience-card--1 {
+	padding-bottom: 101px;
+}

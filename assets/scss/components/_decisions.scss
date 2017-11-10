@@ -1,0 +1,28 @@
+.decisions {
+	width: 30%;
+	border: 1px solid #EDF1F2;
+	border-radius: 10px;
+	float: left;
+	height: 180px;
+	margin: 1%;
+
+	&__title {
+		font-size: 30px;
+		line-height: 17px;
+		font-weight: 500;
+		color: $color-primary;
+		margin-bottom: 25px;
+		padding-top: 45px;
+	}
+
+	&__text {
+		font-size: 18px;
+		line-height: 22px;
+		color: $color-secondary;
+	}
+}
+
+.decisions--dark {
+	box-shadow: inset 0 0 20px rgba(5, 154, 192, .4);
+	border: 1px solid  #059AC0;
+}

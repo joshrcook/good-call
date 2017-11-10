@@ -1,0 +1,79 @@
+.login-modal {
+	width: 426px;
+	height: 465px;
+	border-radius: 25px;
+
+	label {
+		display: block;
+		margin-bottom: 9px;
+		text-transform: uppercase;
+		font-size: 11px;
+		line-height: 13px;
+		color: $color-secondary;
+	}
+
+	input {
+		border-radius: 10px;
+		height: 40px;
+		width: 250px;
+		border: none;
+	}
+
+	&__title {
+		font-size: 30px;
+		line-height: 37px;
+		color: $color-primary;
+		margin-bottom: 20px;
+	}
+
+	&__error {
+		color: #D0021B;
+		margin-bottom: 27px;
+		font-size: 11px;
+		line-height: 13px;
+	}
+
+	&__email {
+
+		margin-bottom: 18px;
+
+		label {
+			color: #D0021B;
+		}
+
+		input {
+			border: 1px solid #D0021B;
+			box-shadow: 0 0 10px rgba(208, 2, 27, .15);
+		}
+	}
+
+	&__password {
+		margin-bottom: 31px;
+
+		input {
+			border: 1px solid rgb(128,128,128);
+		}
+	}
+
+	&__button {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 36px;
+		border: none;
+		width: 180px;
+		font-size: 20px;
+	}
+
+	&__help {
+		font-size: 13px;
+		line-height: 16px;
+		color: $color-secondary;
+	}
+
+	&__link {
+		font-size: 13px;
+		line-height: 16px;
+		text-decoration: underline;
+		color: #059ac0;
+	}
+}

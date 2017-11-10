@@ -1,0 +1,64 @@
+.hero {
+
+	&__title {
+		font-size: 50px;
+		line-height: 61px;
+		font-weight: 300;
+		margin: 0;
+	}
+
+	&__image {
+		margin: 0 auto 25px;
+
+	}
+
+	&__image--college {
+		max-width: 614px;
+	}
+
+	&__image--interview {
+		max-width: 525px;
+	}
+
+	&__image--internet {
+		max-width: 750px;
+	}
+
+	&__image--credit {
+		max-width: 463px;
+	}
+
+	&__image--moving {
+		max-width: 385px;
+	}
+
+	&__good-call {
+		font-weight: bold;
+		color: $color-emperor;
+		line-height: 61px;
+		font-size: 50px;
+		margin-bottom: 25px;
+		display: block;
+	}
+
+	&__text {
+		margin-bottom: 30px;
+	}
+}
+
+.slick-track {
+	display: flex;
+	align-items: center;
+}
+
+.slick-dots li button:before {
+	color: $color-alto;
+	font-size: 10px;
+	opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+	color: $color-pacific-blue;
+	opacity: 1;
+}
+

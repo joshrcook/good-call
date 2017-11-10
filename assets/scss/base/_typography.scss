@@ -1,0 +1,22 @@
+body {
+	font-family: $font-primary;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-primary;
+	color: $color-emperor;
+}
+
+p {
+	font-family: $font-primary;
+	color: $color-dusty-gray;
+	font-size: 20px;
+	line-height: 26px;
+}

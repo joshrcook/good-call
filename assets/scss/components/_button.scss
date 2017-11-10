@@ -1,0 +1,27 @@
+.button {
+	background-color: $color-international-orange;
+	border-radius: 999px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 33px;
+	margin-bottom: 0;
+
+	&:hover{
+		background-color: darken($color-international-orange, 5%);
+	}
+}
+
+.button.secondary {
+	background-color: transparent;
+	color: $color-international-orange;
+	border: 1px solid $color-international-orange;
+	height: 42px;
+	line-height: 42px;
+	font-size: 18px;
+	padding: 0 40px;
+
+	&:hover{
+		background-color: $color-international-orange;
+		color: white;
+	}
+}

@@ -1,0 +1,32 @@
+.information {
+
+	margin-bottom: 150px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+	
+	&__title {
+		margin-top: 0;
+		margin-bottom: 18px;
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	&__image {
+		max-width: 355px;
+	}
+
+	&__content {
+		margin-bottom: 23px;
+
+		p {
+			margin-bottom: 20px;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+}

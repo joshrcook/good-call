@@ -1,3 +1,17 @@
 @import '../../node_modules/zurb-foundation-5/scss/normalize';
 
-// @import '../../node_modules/zurb-foundation-5/scss/foundation/components/accordion';
+@import '../../node_modules/zurb-foundation-5/scss/foundation/components/accordion';
+@import '../../node_modules/zurb-foundation-5/scss/foundation.scss';
+
+@import 'base/variables';
+@import 'base/typography';
+@import 'components/header';
+@import 'components/slider';
+@import 'components/buttons';
+@import 'components/lead';
+@import 'components/section';
+@import 'components/work';
+@import 'components/parents-students';
+@import 'components/decisions';
+@import 'components/footer';
+@import 'components/reveal-modal';

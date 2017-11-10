@@ -1,0 +1,35 @@
+.decisions {
+ 	display: flex;
+
+ 	.decision__heading {
+    font-size: 30px;
+    line-height: 37px;
+    margin-bottom: 49px;
+	}
+	.decision {
+		border: 1px solid $border-primary;
+		border-radius: 10px;
+		margin: 0 10px;
+		padding: 45px 15px; 
+		width: 350px;
+		height: 200px;
+		margin-bottom: 145px;
+		
+		.decision__title {
+      line-height: 17px;
+      font-weight: 600px;
+      margin-bottom: 25px;
+		}
+		.decision__text {
+      font-size: 18px;
+      line-height: 22px;
+      color: $color-black;
+		}
+
+		&:hover {
+			box-shadow: inset 0px 0px 18px -1px #81BBCA; 
+			border: 1px solid $color-primary-blue;
+		}
+	}
+	
+}

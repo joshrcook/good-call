@@ -1,0 +1,33 @@
+.slides {
+	&__heading {
+		font-size: 40px;
+		line-height: 56px;
+	}
+  .button {
+		margin-bottom: 50px;
+		width: 280px;
+		height: 45px;
+	} 
+	.good-call {
+		font-size: 50px;
+		line-height: 61px;
+		font-weight: bold;
+	}
+	.slick-dots {
+		& li button:before {
+			font-size: 10px;
+		}
+		& li.slick-active button:before {
+			color: $color-primary-blue;
+		}
+	}
+	.special-slide {
+		.special-slide__image {
+			margin: 0 auto;
+		}
+		.special-slide__button {
+			width: 386px;
+		}
+	}
+	
+}

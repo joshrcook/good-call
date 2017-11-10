@@ -1,0 +1,61 @@
+.section {
+	&__title {
+		font-size:$heading-font;
+		color:$color-black; 
+		font-family:$primary-font-family;
+	}	
+}
+
+.section--works {
+	background-image:url("../images/grey-background.png"); 
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repat; 
+	padding-top:100px; 
+	padding-bottom:100px; 
+	p {
+		margin-top:25px; 
+		margin-bottom:38px; 
+	}    
+
+}
+.section--hero {
+	background-image:url('../images/hero-background.png');
+	background-position: top center;
+	background-repeat:no-repeat;
+	padding-bottom:80px; 
+}
+
+
+.section--learn-more {
+	padding-top:100px; 
+	padding-bottom:150px;
+	h2 {
+		margin-bottom:18px; 
+	} 
+	p {
+		margin-bottom:23px; 
+	} 
+	span {
+		font-size:15px; 
+		text-transform:uppercase; 
+		color:$color-international-orange;
+		margin-bottom:15px;  
+	}
+	.image-right {
+		margin-bottom:137px; 
+	}
+}
+
+.section--data {
+	background-image:url("../images/grey-background.png"); 
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repat;
+	padding-top:78px; 
+	padding-bottom:98px; 
+
+}
+
+
+

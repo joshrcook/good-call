@@ -1,0 +1,32 @@
+.reveal-modal {
+	height:465px;
+	max-width:426px;
+	border-radius:20px; 
+	label {
+		text-transform:uppercase; 
+		font-size:11px;   
+		input {
+			max-width:250px; 
+			height:40px; 
+			border-radius:10px;
+			margin:10px auto; 
+		}
+	}
+	h2 {
+		margin-bottom:20px; 
+	} 
+}
+
+.form-text {
+	color:#D0021B;
+	font-size:15px; 
+}
+
+.email-sign-up {
+	font-size:13px; 
+	a {
+		font-size:13px; 
+	}
+}
+
+	

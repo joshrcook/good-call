@@ -1,0 +1,55 @@
+.section--features {
+	padding-top:45px; 
+	padding-bottom:145px; 
+	.feature-title {
+		text-align:center;
+	}
+	.feature {
+		margin-top:50px;
+		margin-left:50px; 
+		margin-right:50px; 
+		&__title {
+			margin-top:45px;
+		}
+		&__block { 
+			border:1px solid $color-dusty-gray;
+			display:inline-block;
+			text-align:center;
+			border-radius:5px;
+			//padding-top:45px; 
+			margin-bottom:25px;
+			width: 32%;
+    		height: 181px;      
+		}
+		&__block:hover{
+			border-color:#059AC0 ;
+	        -moz-box-shadow: inset 0 0 20px #059AC0;
+	        -webkit-box-shadow: inset 0 0 20px #059AC0;
+	        box-shadow: inset 0 0 20px #059AC0;
+		} 
+		&__text {
+			font-size:18px; 
+		}
+		&__text--career {
+			margin-right:22px; 
+			margin-left:22px; 
+		}
+		&__text--moving {
+			margin-right:17px; 
+			margin-left:17px; 
+		}
+		&__text--education {
+			margin-right:27px; 
+			margin-left:27px; 
+		}
+		.moving {
+			margin-right:15px; 
+			margin-left:15px; 
+		}
+	}
+
+	[class*="column"]+[class*="column"]:last-child {
+	    float: left;
+	}
+
+}

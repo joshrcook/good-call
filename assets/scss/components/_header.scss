@@ -1,0 +1,18 @@
+.header {
+	padding-top:40px; 
+	.header-nav {
+		ul {
+			float:right; 
+		}
+		li {
+			display:inline; 
+			list-style:none; 
+			font-family:$primary-font-family;
+			font-size: $base-font; 
+			color:$color-pacific-blue;  
+		}
+		li:first-child {
+			margin-right:30px; 
+		}
+	}
+}

@@ -1,0 +1,31 @@
+.footer {
+	.legal {
+		font-size:12px; 
+		color:$color-dusty-gray;
+		line-height:14px; 
+	}
+	&__nav-title {
+		font-size:15px; 
+		text-transform:uppercase; 
+		color:$color-international-orange;
+		margin-top:51px; 
+	}
+	&__text {
+		font-size:18px; 
+		font-family:$primary-font-family;
+		line-height:22px;  
+	}
+
+	&__nav-list {
+		margin:0;
+	}
+	&__nav-list li {; 
+		list-style:none; 
+	}
+
+	&__nav-list li a {
+		font-size:18px; 
+		font-family:$primary-font-family; 
+		color:$color-dusty-gray; 
+	}	
+}

@@ -1,0 +1,22 @@
+.button {
+	background-color:$color-international-orange; 
+	color:$color-white;
+	font-size:$base-font; 
+	border-radius:30px;
+	font-family:$primary-font-family; 
+	&__modal {
+		padding-left:63px; 
+		padding-right:62px; 
+		padding-top:12px;
+		padding-bottom:9px; 
+		margin-bottom:36px;
+		margin-top:31px;   
+
+	} 
+} 
+
+.secondary-button {
+	border:1px solid $color-international-orange; 
+	background-color:$color-white; 
+	color:$color-international-orange; 
+}

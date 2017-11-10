@@ -1,0 +1,77 @@
+.reveal-modal {
+	border-radius: 25px;
+	padding-top: 46px;
+	padding-bottom: 44px;
+
+	&__title {
+		color: $color-emperor;
+		font-size: 30px;
+		line-height: 36px;
+		margin-bottom: 20px;
+	}
+
+	&__error {
+		font-size: 15px;
+		color: $color-manza;
+		line-height: 18px;
+		margin-bottom: 28px;
+		display: none;
+	}
+
+	&__sign-up {
+		font-size: 13px;
+		line-height: 16px;
+		margin-bottom: 0;
+
+		a {
+			color: $color-pacific-blue;
+			text-decoration: underline;
+		}
+	}
+
+	.log-in {
+		margin-bottom: 31px;
+
+		&__label {
+			font-size: 11px;
+			line-height: 13px;
+			color: $color-dusty-gray;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+
+		&__input {
+			max-width: 250px;
+			margin: 0 auto;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 10px;
+			border: 1px solid $color-alto;
+			box-shadow: none;
+		}
+
+		&__input--email {
+			margin-bottom: 18px;
+		}
+
+		&__input--password {
+			margin-bottom: 31px;
+		}
+
+		&__button {
+			font-size: 20px;
+			padding: 0 63px;
+		}
+
+		.js-error__label {
+			color: $color-manza;
+		}
+
+		.js-error__input {
+			border-color: $color-manza;
+			box-shadow: 0 0 10px 0 rgba($color-manza,0.15);
+		}
+	}
+
+	
+}

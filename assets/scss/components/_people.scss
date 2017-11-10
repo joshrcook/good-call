@@ -1,0 +1,30 @@
+.people {
+	padding-top: 105px;
+	padding-bottom: 130px;
+
+	&__label{
+		text-transform: uppercase;
+		color: $color-orange;
+		margin-bottom: 15px;
+	}
+
+	&__description--1 {
+		    color: #9B9B9B;
+    		font-size: 20px;
+    		line-height: 26px;
+    		margin-bottom: 27px;
+	}
+
+	&__description--2 {
+		    color: #9B9B9B;
+    		font-size: 20px;
+   		 	line-height: 26px;
+    		margin-bottom: 23px;
+	}
+
+	&__image--2 {
+		    margin-top: 100px;
+	}
+
+
+}

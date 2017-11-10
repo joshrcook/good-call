@@ -1,0 +1,31 @@
+.footer {
+	&__list-bigwrap {
+		display: flex;
+    	justify-content: center;
+	}
+	&__list {
+		list-style: none;
+		margin-left: 0px;
+		margin-right: 25px;
+	}
+
+	&__label {
+		text-transform: uppercase;
+		color: $color-orange;
+	}
+
+	&__list-item li {
+		margin: 0px;
+
+	}
+
+	a {
+		color: $color-paragraphblack;
+	}
+
+	&__disclaimer {
+		line-height: 14px;
+		font-size: 12px;
+		margin-bottom: 50px;
+	}
+}

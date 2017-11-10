@@ -1,0 +1,25 @@
+.button {
+	background-color: #FE5000;
+	border: 2px solid #fe5000;
+    border-radius: 999px;
+    height: 45px;
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+   	font-family: "Montserrat",sans-serif;
+
+   
+}
+
+.button.secondary {
+	border-color: #FE5000;
+    background: transparent;
+    color: #FE5000;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 40px;
+}

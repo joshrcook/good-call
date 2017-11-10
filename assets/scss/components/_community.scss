@@ -1,0 +1,37 @@
+.section--community {
+
+    &__who {
+        color: $color-International-Orange;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: $color-Emperor;
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+    &__description-1,
+    &__description-2 {
+        color: $color-Dusty-Gray;
+        line-height: 26px;
+    }
+
+    &__image-1,
+    &__image-2 {
+        height: 350px;
+    }
+
+    &__section-1 {
+        margin-bottom: 137px;
+    }
+
+    &__section-2 {
+        margin-bottom: 127px;
+    }
+
+} //section--community
+

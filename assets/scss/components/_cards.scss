@@ -1,0 +1,39 @@
+.section--cards {
+
+    &__card {
+        border: 1px solid #EDF1F2;
+        border-radius: 10px;
+        margin-right: 15px;
+        height: 180px;
+        padding: 0px;
+        width: 32%;
+    }
+
+    &__heading {
+        color: $color-Emperor;
+        font-size: 30px;
+        margin-bottom: 49px;
+    }
+
+    &__title{
+        color: $color-Emperor;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 20px; 
+        margin-top: 40px;
+    }
+
+    &__text {
+        color: $color-Emperor;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    &__card:hover {
+        border-color: #059AC0;
+        box-shadow: inset 0 0 20px #059AC0;
+        -moz-box-shadow: inset 0 0 20px #059AC0;
+        -webkit-box-shadow: inset 0 0 20px #059AC0;
+    }
+
+}//section--cards    

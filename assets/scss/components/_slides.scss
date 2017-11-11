@@ -1,0 +1,17 @@
+.slides {
+    
+    &__slide--main {
+        font-size: 50px;
+        font-weight: 300;
+        color: $color-header-text;
+    }
+
+    &__slide--light-text {
+        font-size: 30px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+}
+
+
+

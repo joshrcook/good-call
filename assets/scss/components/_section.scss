@@ -1,0 +1,45 @@
+.section--slides {
+    background-size: 1315px 410px;
+	background-image: url( '../img/bg-slider.jpg' );
+    background-repeat: no-repeat;
+}
+
+// .section--slides img {
+//     // max-width: 640px;
+//     // max-height:272px;
+//     text-align: center;
+//     padding-right: 0px;
+// }
+
+.section--works {
+    background-image: url('../img/bg-works.jpg');
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section--value {
+    background-image: url('../img/bg-works.jpg');
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 98px;
+    margin-bottom: 130px;
+}
+
+.section--decision {
+    margin-bottom: 145px;
+}
+
+.slides__slide--good-call {
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: bold;
+    color: $color-header-text;
+}
+
+

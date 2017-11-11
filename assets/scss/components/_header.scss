@@ -1,0 +1,33 @@
+.header {
+    width: 1315px;
+    height:100px;
+    // transform: translateY(70px);
+    padding-top: 70px;
+    &__logo {
+        float:left;
+        margin-left: 70px;
+    }
+
+    &__menu {
+        float: right;
+        margin-right: 40px;
+        color: $color-brand-blue;
+    }
+
+    &__menu a {
+        display: inline;
+        margin-right: 39px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.fa-bars {
+    width: 30px;
+    height: 35px;
+}
+
+
+
+
+

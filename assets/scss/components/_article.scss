@@ -1,0 +1,111 @@
+.hero-article {
+  &__title {
+    font-size: 50px;
+    line-height: 63px;
+    font-weight: 300;
+    span {
+      font-weight: bold;
+    }
+  }
+  &__text {
+    color: $nobel-gray;
+    font-size: 30px;
+    line-height: 26px;
+  }
+  &__image {
+    img {
+      margin: 0 auto;
+    }
+  }
+}//.hero-article
+.works-article {
+  &__title {
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: 400;
+    color: $matterhorn-gray;
+  }
+  &__text {
+    color: $nobel-gray;
+  }
+}//.works-article
+
+.students-article {
+  margin-bottom: 137px;
+  .students-article--content {
+    &__label {
+      color: $international-orange;
+      text-transform: uppercase;
+      font-size: 15px;
+      line-height: 19px;
+      margin-bottom: 14px;
+    }
+
+    &__title {
+      font-size: 30px;
+      line-height: 38px;
+      color: $matterhorn-gray;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    &__lead, &__text {
+      font-size: 20px;
+      line-height: 26px;
+      color: $nobel-gray;
+      font-weight: 200;
+      margin-top: 0;
+      margin-bottom: 23px;
+    }
+  }
+}//.students-article
+
+.educators-article {
+  margin-top: 0;
+  .educators-article--content {
+    &__label {
+      color: $international-orange;
+      text-transform: uppercase;
+      font-size: 15px;
+      line-height: 19px;
+      margin-bottom: 14px;
+    }
+
+    &__title {
+      font-size: 30px;
+      line-height: 38px;
+      color: $matterhorn-gray;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    &__lead, &__text {
+      font-size: 20px;
+      line-height: 26px;
+      color: $nobel-gray;
+      font-weight: 200;
+      margin-top: 0;
+      margin-bottom: 23px;
+    }
+  }
+}//.educators-article
+
+.life-decision--article {
+
+  &__title {
+    font-size: 30px;
+    line-height: 17px;
+    color: $matterhorn-gray;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 22px;
+    color: $matterhorn-gray;
+    font-weight: 400;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.button {
+  background-color: $international-orange;
+  border-radius: 25px;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 350;
+
+
+}
+.work {
+  border-radius: 35px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.button.secondary {
+  background-color: white;
+  border: 1px solid $international-orange;
+  color: $international-orange;
+}

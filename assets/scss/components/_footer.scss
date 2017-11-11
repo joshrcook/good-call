@@ -1,0 +1,36 @@
+.footer {
+  font-family: $primary-font;
+  .top-wrap {
+    .footer-lead {
+      font-size: 12px;
+      line-height: 15px;
+      color: $nobel-gray;
+    }
+  }
+  .bottom-wrap {
+    span.footer-title {
+      font-size: 18px;
+      line-height: 23px;
+      color: $international-orange;
+      text-transform: uppercase;
+    }
+    p.footer-text {
+      font-size: 18px;
+      line-height: 24px;
+      color: $nobel-gray;
+    }
+    span.footer-text {
+      font-size: 18px;
+      color: $nobel-gray;
+      line-height: 30px;
+    }
+    ul.footer-list {
+      list-style-type: none;
+      li a {
+        font-size: 18px;
+        color: $nobel-gray;
+        line-height: 30px;
+      }
+    }
+  }
+}

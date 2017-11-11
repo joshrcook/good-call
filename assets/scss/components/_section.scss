@@ -1,0 +1,66 @@
+.section {
+  font-family: $primary-font;
+  // height: 100vh;
+  // background-image: url( '../img/hero-bg.jpg' );
+  // background-size: cover;
+
+
+}
+.section--hero {
+  background-image: url( '../img/hero-background.png' );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+}
+.section--works {
+  background-image: url( '../img/grey-bg.png' );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid rgba(0, 0, 0, .04);
+  padding: 102px 280px;
+}
+
+.section--callouts {
+  background-image: url( '../img/grey-bg.png' );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 150px;
+}
+
+.section--learn-more {
+  margin-top: 105px;
+  margin-bottom: 164px;
+}
+
+.section--life-decisions {
+  margin-top: 121px;
+  margin-bottom: 145px;
+
+  &__title {
+    font-size: 30px;
+    line-height: 37px;
+    color: $matterhorn-gray;
+    margin-bottom: 49px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      width: 350px;
+      border: 1px solid $nobel-gray;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 45px 27px 24px 28px;
+    }
+    li:hover {
+      border-color: #059AC0;
+      box-shadow: inset 0 0 20px 0 #059AC0;
+    }
+  }
+  .inline-list {
+    margin: 0 32px 0 43px;
+  }
+}

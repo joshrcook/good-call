@@ -1,0 +1,14 @@
+.header {
+  font-family: $primary-font;
+  margin-top: 44px;
+  margin-bottom: 65px;
+  nav.header__nav {
+    .header__nav-link {
+      text-transform: uppercase;
+    }
+    ul.inline-list {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+}

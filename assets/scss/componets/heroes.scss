@@ -1,0 +1,48 @@
+.slide {
+  min-height: 600px;
+
+  &__image {
+    width: 441px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    color: $color-davy-gray;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  &__title-emphasis {
+    display: block;
+    font-weight: bold;
+  }
+
+  &__subtitle {
+    margin-bottom: 30px;
+    color: #9b9b9b;
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  &__button {
+  }
+}
+
+.slides {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100px;
+    height: 410px;
+    width: 1117px;
+    background-image: url("../../assets/img/background1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

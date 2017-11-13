@@ -1,0 +1,45 @@
+.modal {
+  width: 426px;
+  height: 465px;
+  margin: 0 auto;
+  padding: 45px 88px;
+  border-radius: 25px;
+  position: fixed;
+
+  &__title {
+    color: $color-davy-gray;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 21px;
+  }
+
+  &__error {
+    color: #d0021b;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  &__label {
+    color: #9b9b9b;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    border: solid 1px #d6d6d6;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 18px;
+  }
+
+  &__button {
+    margin-bottom: 36px;
+  }
+
+  &__passwordlink {
+    color: #9b9b9b;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

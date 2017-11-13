@@ -1,0 +1,20 @@
+.button {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 25px;
+  border: solid 1px;
+  padding: 10px 40px;
+}
+
+.primary {
+  background-color: $color-international-orange;
+  color: white;
+  border-color: $color-international-orange;
+}
+
+.secondary {
+  background-color: white;
+  border-color: $color-international-orange;
+  color: $color-international-orange;
+}

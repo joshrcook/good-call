@@ -1,7 +1,13 @@
-jQuery( function( $ ) {
-	// $( 'p' ).css( 'background-color', 'blue' );
-});
+$(document).ready(function() {
+  //initialize foundation.js
+  $(document).foundation();
 
-jQuery( document ).ready( function( $ ) {
-	
+  $(".slides").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    dots: true
+  });
 });

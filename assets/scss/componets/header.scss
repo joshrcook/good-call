@@ -1,0 +1,18 @@
+.header {
+  &__logo {
+    float: left;
+  }
+
+  &__login {
+    float: right;
+    color: #059ac0;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 40px;
+    text-transform: uppercase;
+  }
+
+  &__hamburgerMenu {
+    float: right;
+  }
+}

@@ -1,0 +1,39 @@
+.section--works .button {
+    background: $color-brand-orange;
+    color: #FFFFFF;
+    border-radius: 999px;
+    width: 217px;
+    height: 44px;
+    line-height: .5;
+}
+
+.section--users .button {
+    background: #FFFFFF;
+    color: $color-brand-orange;
+    border-radius: 999px;
+    border: 1px solid $color-brand-orange;
+    width: 170px;
+    height: 42px;
+    line-height: .5;
+}
+
+.section--slides .button {
+    background: $color-brand-orange;
+    color: #FFFFFF;
+    border-radius: 999px;
+    width: 217px;
+    height: 44px;
+    line-height: .5;
+}
+
+.signin-form .button {
+    background: $color-brand-orange;
+    color: #FFFFFF;
+    border-radius: 9999px;
+    width: 180px;
+    height: 45px;
+    line-height: .5;
+    margin-bottom: 36px;
+}
+
+

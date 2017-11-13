@@ -1,0 +1,28 @@
+.section--decision h2 {
+    font-size: 37px;
+    line-height: 37px;
+    margin-bottom: 49px;
+}
+
+.decision-box {
+    border: 1px solid $color-cloud-grey;
+    border-radius: 10px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+.decision-box h2 {
+    font-size: 30px;
+    line-height: 17px;
+}
+
+.decision-box p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.decision-box:hover {
+    box-shadow: inset 0 0 20px 0 rgba(5,154,192,0.20);
+}

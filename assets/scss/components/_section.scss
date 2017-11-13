@@ -1,0 +1,38 @@
+.section--slides {
+	padding-bottom: 80px;
+
+	.row {
+		background-image: url('../img/bg-slider.jpg');
+		background-repeat: no-repeat;
+		background-position: center top;
+        background-size: contain;
+	}
+}
+
+.section--works {
+    background-image: url('../img/bg-works.jpg');
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section--value {
+    background-image: url('../img/bg-works.jpg');
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 98px;
+    margin-bottom: 130px;
+}
+
+.section--decision {
+    margin-bottom: 145px;
+}
+
+
+
+

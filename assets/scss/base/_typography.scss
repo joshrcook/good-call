@@ -1,0 +1,16 @@
+body {
+    font-family: $font-primary;
+    font-size: 20px;
+    line-height: 26px;
+    color: $color-main-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color-header-text;
+    font-family: $font-primary;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+}

@@ -1,0 +1,49 @@
+.slides {
+    
+        &__title {
+            color: $color-header-text;
+            font-size: 50px;
+            line-height: 61px;
+            font-weight: 300;
+            margin: 0;
+        }
+    
+        &__image {
+            margin: 0 auto 25px;
+        }
+    
+        &__good-call {
+            font-weight: bold;
+            color: $color-header-text;
+            line-height: 61px;
+            font-size: 50px;
+            margin-bottom: 25px;
+            display: block;
+        }
+    
+        &__text {
+            margin-bottom: 30px;
+        }
+    }
+    
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+    
+    .slick-dots li button:before {
+        color: $color-main-text;
+        font-size: 10px;
+        opacity: 1;
+    }
+    
+    .slick-dots li.slick-active button:before {
+        color: $color-brand-blue;
+        opacity: 1;
+    }
+
+#slick-slide00 .test {
+    height: 388px;
+}
+
+
